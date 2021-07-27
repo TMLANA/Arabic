@@ -424,9 +424,6 @@ async def play(_, message: Message):
         #print(results)
         title = results[0]["title"][:40]       
         thumbnail = results[0]["thumbnails"][0]
-        thumb_name = f'thumb{title}.jpg'
-        thumb = requests.get(thumbnail, allow_redirects=True)
-        open(thumb_name, 'wb').write(thumb.content)
         duration = results[0]["duration"]
         url_suffix = results[0]["url_suffix"]
         views = results[0]["views"]
@@ -463,7 +460,7 @@ async def play(_, message: Message):
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
         await message.reply_text(
-        text=f"• **تم اضافة الاغنيه في الدور** #{position} .",
+        text=f"• **تم اضافة الاغنيه في الدور** #{position} .\n🎬 [{title}]({url}) \n🕑 {duration} 👁 {views}",
         reply_markup=keyboard
     )
         return await lel.delete()
@@ -478,10 +475,9 @@ async def play(_, message: Message):
         qeue.append(appendable)
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
     await message.reply_text(
-        text=f"• **تم تشغيل الاغنيه بنجاح** \n- بواسطة : {message.from_user.mention()}",
+        text=f"• **تم تشغيل الاغنيه بنجاح** \n- بواسطة : {message.from_user.mention()}\n🎬 [{title}]({url}) \n🕑 {duration} 👁 {views}",
         reply_markup=keyboard,
         disable_web_page_preview=True
-    ),
     )
         return await lel.delete()
 
