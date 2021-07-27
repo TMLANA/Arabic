@@ -1,0 +1,48 @@
+{
+  "name": "Source DevProx Music",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Developed by Abs.",
+  "logo": "https://raw.githubusercontent.com/iq0abs/MusicBot/master/DevProx.jpg",
+  "keywords": ["music", "voicechat", "telegram"],
+  "repository": "https://t.me/Dev_Prox/",
+  "stack": "container",
+  "env": {
+    "SESSION_NAME": {
+      "description": "قم بوضع كود التيرمكس في الحقل الفارغ (SESSION NAME)",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "قم بوضع توكن البوت في الحقل الفارغ تستطيع جلبه من : @BotFather",
+      "required": true
+    },
+    "BOT_USER": {
+      "description": "قم بوضع يوزر البوت من دون ال@ في الحقل الفارغ",
+      "required": false
+    },
+    "API_ID": {
+      "description": "قم بوضع الايبي ايدي في الحقل الفارغ تستطيع جلبه من : my.telegram.org/apps",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "قم بوضع الايبي هاش في الحقل الفارغ تستطيع جلبه من : my.telegram.org/apps",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "قم بوضع ايديات المطورين في الحقل الفارغ (ضع مسافه بين كل ايدي)"
+      "required": false
+    },
+    "MUSIC_USER": {
+      "description": "قم بوضع يوزر الحساب المساعد من دون ال@ في الحقل الفارغ",
+      "required": true
+    },
+    "MUSIC_NAME": {
+      "description": "قم بوضع اسم الحساب المساعد في الحقل",
+      "required": false,
+      "value": "Music Bot"
+    },
+    "DURATION_LIMIT": {
+      "description": "قم بوضع الحد الاقصى للتنزيل (دقائق فقط)",
+      "required": true,
+      "value": "10"
+    }
+  }
+}
