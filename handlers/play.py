@@ -77,51 +77,6 @@ def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(':'))))
 
-
-# Change image size
-def changeImageSize(maxWidth, maxHeight, image):
-    widthRatio = maxWidth / image.size[0]
-    heightRatio = maxHeight / image.size[1]
-    newWidth = int(widthRatio * image.size[0])
-    newHeight = int(heightRatio * image.size[1])
-    newImage = image.resize((newWidth, newHeight))
-    return newImage
-
-async def generate_cover(requested_by, title, views, duration, thumbnail):
-    async with aiohttp.ClientSession() as session:
-        async with session.get(thumbnail) as resp:
-            if resp.status == 200:
-                f = await aiofiles.open("background.png", mode="wb")
-                await f.write(await resp.read())
-                await f.close()
-
-    image1 = Image.open("./background.png")
-    image2 = Image.open("etc/foreground.png")
-    image3 = changeImageSize(1280, 720, image1)
-    image4 = changeImageSize(1280, 720, image2)
-    image5 = image3.convert("RGBA")
-    image6 = image4.convert("RGBA")
-    Image.alpha_composite(image5, image6).save("temp.png")
-    img = Image.open("temp.png")
-    draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("etc/font.otf", 32)
-    draw.text((205, 550), f"Title: {title}", (51, 215, 255), font=font)
-    draw.text(
-        (205, 590), f"Duration: {duration}", (255, 255, 255), font=font
-    )
-    draw.text((205, 630), f"Views: {views}", (255, 255, 255), font=font)
-    draw.text((205, 670),
-        f"Added By: {requested_by}",
-        (255, 255, 255),
-        font=font,
-    )
-    img.save("final.png")
-    os.remove("temp.png")
-    os.remove("background.png")
-
-
- 
-
 @Client.on_message(
     filters.command("الاغاني")
     & filters.group
@@ -156,7 +111,7 @@ async def playlist(client, message):
 def updated_stats(chat, queue, vol=100):
     if chat.id in callsmusic.pytgcalls.active_calls:
     #if chat.id in active_chats:
-        stats = '• **لوحة التحكم في اغاني المكالمه للمجموعه** : `{}`'.format(chat.title)
+        stats = '• **المجموعه** : `{}`'.format(chat.title)
         if len(que) > 0:
             stats += '\n\n'
             stats += '- مستوى الصوت : {}%\n'.format(vol)
@@ -507,11 +462,10 @@ async def play(_, message: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await message.reply_photo(
-        photo="final.png", 
-        caption=f"• **تم اضافة الاغنيه في الدور** #{position} .",
-        reply_markup=keyboard)
-        os.remove("final.png")
+        await message.reply_text(
+        text=f"• **تم اضافة الاغنيه في الدور** #{position} .",
+        reply_markup=keyboard
+    )
         return await lel.delete()
     else:
         chat_id = message.chat.id
@@ -523,14 +477,12 @@ async def play(_, message: Message):
         appendable = [s_name, r_by, loc]      
         qeue.append(appendable)
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
-        await message.reply_photo(
-        photo="final.png",
+    await message.reply_text(
+        text=f"• **تم تشغيل الاغنيه بنجاح** \n- بواسطة : {message.from_user.mention()}",
         reply_markup=keyboard,
-        caption="• **تم تشغيل الاغنيه بنجاح** \n- بواسطة : {}".format(
-        message.from_user.mention()
-        ),
+        disable_web_page_preview=True
+    ),
     )
-        os.remove("final.png")
         return await lel.delete()
 
 # Have u read all. If read RESPECT :-)
