@@ -1,4 +1,4 @@
-### - Source DevProx Music
+### - Source DevProx Music : 
 
 <p align="center">
   <a href="https://github.com/iq0abs/ProxMusic/stargazers">
@@ -16,14 +16,14 @@
 [![Protection Source Telegram!](https://badgen.net/badge/Protection%20Source/Telegram/blue?icon=github)](https://github.com/iq0abs/ProxMusic)
 [![Ask Me Anything!](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/IQA_bot)
 
-### - الاوامر العامه :
+### - Commands :
 - `/تشغيل <song name>` - play song you requested
 - `/صوت <song name>` - download audios you want quickly
 - `/فيديو <song name>` - download videos you want quickly
 - `/الاغاني` - Show playing list
 - `/الاغنيه` - Show now playing
 
-#### - لمشرفين المجموعه : 
+#### - Group Admins Only : 
 - `/التحكم` - open music player settings panel
 - `/ايقاف` - pause song play
 - `/استمرار` - resume song play
