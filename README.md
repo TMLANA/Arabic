@@ -1,39 +1,21 @@
 ### Telegram Voice Chat Bot
 
-A bot that can play music on telegram group's voice call.Telegram bot + userbot for streaming audio in group calls.
-
 <p align="center">
-  <a href="https://github.com/iq0abs/TG-VCBot">
-     <img height="30px" src="https://img.shields.io/badge/TG%20Music%20Bot-black?style=for-the-badge&logo=github">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/iq0abs/Telegram_Vc_Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/iq0abs/Telegram_Vc_Bot?style=social">
+  <a href="https://github.com/iq0abs/ProxMusic/stargazers">
+    <img src="https://img.shields.io/github/stars/iq0abs/ProxMusic?style=social">
 
   </a>
   
-  <a href="https://github.com/iq0abs/Telegram_Vc_Bot/fork">
-    <img src="https://img.shields.io/github/forks/iq0abs/Telegram_Vc_Bot?label=Fork&style=social">
+  <a href="https://github.com/iq0abs/ProxMusic/fork">
+    <img src="https://img.shields.io/github/forks/iq0abs/ProxMusic?label=Fork&style=social">
 
   </a>  
 </p>
 
 <a href="https://telegram.dog/GroupMusicPlaybot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/yellow?icon=github)](https://github.com/iq0abs/Telegram_VC_BOt)
-
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/yellow?icon=github)](https://github.com/iq0abs/ProxMusic)
+<p align="center">
 [![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/musicbotupports)
-[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/musicbotupports)
-
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/iq0abs/Telegram_VC_BOT&amp;title=Profile%20Views" alt="Views"> <a href="https://deepsource.io/gh/iq0abs/Telegram_Vc_Bot/?ref=repository-badge"><img src="https://static.deepsource.io/deepsource-badge-light-mini.svg" alt="DeepSource"></a>
-
-<p align="center">
-<a href="https://github.com/iq0abs/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/iq0abs/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
-</p>
-
-<p align="center">
-  <img src="https://telegra.ph/file/1ab58a2fb73627c961337.jpg">
 </p>
 
 ### Features✨
@@ -93,13 +75,13 @@ License -> https://github.com/iq0abs/TG-VCBOT/blob/main/LICENSE
 ### Deploy To Heroku 📡</h4>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/iq0abs/Telegram_Vc_Bot">
+  <a href="https://heroku.com/deploy?template=https://github.com/iq0abs/ProxMusic">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
 ### Session String 📼
 Different ways to get your `SESSION`:
-[![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@SpEcHiDe/GenerateStringSession)
+[![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://replit.com/@iq0abs/generate-pyrogram-session-string#DevProx.py)
 
 
 ### Credits ❤
