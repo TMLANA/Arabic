@@ -459,11 +459,11 @@ async def play(_, message: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await message.reply_text(
+        await lel.edit(
         text=f"• **تم اضافة الاغنيه في الدور** #{position} .\n🎬 [{title}]({url}) \n🕑 {duration} 👁 {views}",
-        reply_markup=keyboard
+        reply_markup=keyboard,
+        disable_web_page_preview=True
     )
-        return await lel.delete()
     else:
         chat_id = message.chat.id
         que[chat_id] = []
@@ -474,11 +474,10 @@ async def play(_, message: Message):
         appendable = [s_name, r_by, loc]      
         qeue.append(appendable)
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
-    await message.reply_text(
+    await lel.edit(
         text=f"• **تم تشغيل الاغنيه بنجاح** \n- بواسطة : {message.from_user.mention()}\n🎬 [{title}]({url}) \n🕑 {duration} 👁 {views}",
         reply_markup=keyboard,
         disable_web_page_preview=True
     )
-        return await lel.delete()
 
 # Have u read all. If read RESPECT :-)
