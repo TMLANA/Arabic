@@ -41,4 +41,4 @@
   </a>
 
 ### Session String : 
-[![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://replit.com/@iq0abs/generate-pyrogram-session-string#DevProx.py)
+[![Run on Repl.it](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@iq0abs/generate-pyrogram-session-string#DevProx.py)
