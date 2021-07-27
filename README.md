@@ -41,5 +41,4 @@
   </a>
 
 ### Session String : 
-Different ways to get your `SESSION`:
 [![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://replit.com/@iq0abs/generate-pyrogram-session-string#DevProx.py)
