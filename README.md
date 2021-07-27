@@ -24,14 +24,14 @@
 - `/الاغنيه` - Show now playing
 
 #### - Group Admins Only : 
-- `/التحكم` - open music player settings panel
-- `/ايقاف` - pause song play
-- `/استمرار` - resume song play
-- `/تخطي` - play next song
-- `/انهاء` - stop music play
-- `/انضم` - invite assistant to your chat
-- `/غادر` - remove assistant from your chat
-- `/تحديث` - Refresh admin list
+   - `/التحكم` - open music player settings panel
+   - `/ايقاف` - pause song play
+   - `/استمرار` - resume song play
+   - `/تخطي` - play next song
+   - `/انهاء` - stop music play
+   - `/انضم` - invite assistant to your chat
+   - `/غادر` - remove assistant from your chat
+   - `/تحديث` - Refresh admin list
 
 ### - Deploy To Heroku : 
 
@@ -42,3 +42,15 @@
 
 ### - Session String : 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@iq0abs/generate-pyrogram-session-string#DevProx.py)
+
+### المعلومات المهمه قبل التنصيب : 
+   - `API_ID` :  الايبي ايدي الخاص بمعلومات الحساب .
+   - `API_HASH` :   الايبي هاش الخاص بمعلومات الحساب .
+   - `STRING_NAME` :  كليشة معلومات الحساب تستطيع احضارها عبر [الضغط هنا](https://replit.com/@iq0abs/generate-pyrogram-session-string#DevProx.py) .
+   - `BOT_TOKEN` :  توكن البوت الخاص بك من [بوت فائر](https://t.me/botfather) .
+   - `BOT_USER` :  معرف البوت الذي جلبته من [بوت فائر](https://t.me/botfather) من دون ال@ في الحقل.
+   - `MUSIC_USER` :  هنا تقوم بوضع معرف الحساب المساعد من دون ال@ في الحقل .
+   - `MUSIC_NAME` :  هنا تقوم بوضع اسم الحساب المساعد .
+   - `SUDO_USERS` :  هنا تقوم بوضع ايديات المطورين .
+   DURATION_LIMIT
+   
