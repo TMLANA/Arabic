@@ -14,9 +14,8 @@
 
 <a href="https://telegram.dog/GroupMusicPlaybot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/yellow?icon=github)](https://github.com/iq0abs/ProxMusic)
-<p align="center">
 [![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/musicbotupports)
-</p>
+
 
 ### Features✨
 
