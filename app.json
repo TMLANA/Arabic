@@ -27,7 +27,7 @@
       "required": true
     },
     "SUDO_USERS": {
-      "description": "قم بوضع ايديات المطورين في الحقل الفارغ (ضع مسافه بين كل ايدي)"
+      "description": "قم بوضع ايديات المطورين في الحقل الفارغ (ضع مسافه بين كل ايدي)",
       "required": false
     },
     "MUSIC_USER": {
