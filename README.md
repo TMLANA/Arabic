@@ -17,7 +17,7 @@
 [![Ask Me Anything!](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/IQA_bot)
 
 ### الاوامر العامه :
-- `/تشغيل <song name>` - play song you requested
+- `/تشغيل <اسم الاغنيه>` - play song you requested
 - `/الاغاني` - Show now playing list
 - `/الاغنيه` - Show now playing
 - `/صوت <song name>` - download songs you want quickly
