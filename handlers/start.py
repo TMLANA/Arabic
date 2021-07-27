@@ -23,7 +23,7 @@ async def gstart(_, message: Message):
         text=f"• **تم تفعيل البوت بنجاح** .\n• **الحساب المساعد** : [{MUSIC_NAME}](https://t.me/{MUSIC_USER})",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="• قناة البوت •", url="https://t.me/Dev_Prox")
+            InlineKeyboardButton(text="• قناة البوت •", url="https://t.me/vvvvisn")
             ]]
         ),
         disable_web_page_preview=True
@@ -36,7 +36,7 @@ async def cmdlist(_, message: Message):
         text=f"• **قائمة اوامر بوت الاغاني** : \n\n- /تشغيل + اسم الاغنيه\n- /صوت + اسم الاغنيه\n- /فيديو + اسم الاغنيه\n- /الاغاني : لعرض قائمة الاغاني\n- /الاغنيه : لعرض الاغنيه المبثوثه\n\n- /التحكم : للتحكم بقائمة الاغاني\n- /ايقاف : لأيقاف الاغنيه مؤقتا\n- /استمرار : لأكمال تشغيل الاغاني\n- /انهاء : لأيقاف جميع الاغاني\n- /غادر : لمغادرة البوت المساعد\n- /انضم : لانضمام البوت المساعد\n- /تحديث : لتحديث قائمة المشرفين\n\n• **الحساب المساعد** : [{MUSIC_NAME}](https://t.me/{MUSIC_USER})",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="• قناة البوت •", url="https://t.me/Dev_Prox")
+              InlineKeyboardButton(text="• قناة البوت •", url="https://t.me/vvvvisn")
               ]]
           )
       )
