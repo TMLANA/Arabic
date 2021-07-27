@@ -16,48 +16,22 @@
 [![Protection Source Telegram!](https://badgen.net/badge/Protection%20Source/Telegram/blue?icon=github)](https://github.com/iq0abs/ProxMusic)
 [![Ask Me Anything!](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/IQA_bot)
 
+### الاوامر العامه :
+- `/تشغيل <song name>` - play song you requested
+- `/الاغاني` - Show now playing list
+- `/الاغنيه` - Show now playing
+- `/صوت <song name>` - download songs you want quickly
+- `/فيديو <song name>` - download videos you want quickly
 
-### Features✨
-
-- Thumbnail Support
-- Playlist Support
-- Current playback support
-- Showing track names when skipping
-- Zero downtime, Fully Stable
-- Deezer,YouTube & Saavan PlayBack Supported
-- Settings panel
-- Control with buttons
-- Userbot auto join
-- Thanks Message When Add The Bot Join On A Group
-
-<h3>Requirements 📝</h3>
-
-- FFmpeg
-- NodeJS [nodesource.com](https://nodesource.com/)
-- Python 3.7+
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-
-### Commands 🛠
-- `/play <song name>` - play song you requested
-- `/dplay <song name>` - play song you requested via deezer
-- `/splay <song name>` - play song you requested via jio saavn
-- `/playlist` - Show now playing list
-- `/current` - Show now playing
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
-- `/deezer <song name>` - download songs you want quickly via deezer
-- `/saavn <song name>` - download songs you want quickly via saavn
-- `/vid <song name>` - download videos you want quickly
-
-#### Admins only.👮🏻‍♂️
-- `/player` - open music player settings panel
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
-- `/userbotjoin` - invite assistant to your chat
-- `/userbotleave` - remove assistant from your chat
-- `/reload` - Refresh admin list
+#### لمشرفين المجموعه : 
+- `/التحكم` - open music player settings panel
+- `/ايقاف` - pause song play
+- `/استمرار` - resume song play
+- `/تخطي` - play next song
+- `/انهاء` - stop music play
+- `/انضم` - invite assistant to your chat
+- `/غادر` - remove assistant from your chat
+- `/تحديث` - Refresh admin list
 
 <details>
   <summary>Telegram VC Bot</summary>
