@@ -23,7 +23,7 @@ async def gstart(_, message: Message):
         text=f"• **تم تفعيل البوت بنجاح** .\n• **الحساب المساعد** : [{MUSIC_NAME}](https://t.me/{MUSIC_USER})",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="• قناة البوت •", url="https://t.me/vvvvisn")
+            InlineKeyboardButton(text="• قناة البوت •", url="https://t.me/jepthon")
             ]]
         ),
         disable_web_page_preview=True
